@@ -6,3 +6,5 @@
 3. Paste the token in auth.json.
 4. Run "runBot.bat" if using Windows or just run the command "node index.js" for any operating system.
 5. Use the !help command in the server your bot is in.
+## Notes
+-If you install any other packages with npm, kahoot.js-update **will be deleted**, so make sure you have a backup.
