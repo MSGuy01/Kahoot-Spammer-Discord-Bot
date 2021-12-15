@@ -1,0 +1,14 @@
+{
+  "name": "kahoot-spammer-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that spams a given Kahoot code with bots.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MSGuy01",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
