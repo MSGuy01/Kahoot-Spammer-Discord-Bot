@@ -5,6 +5,12 @@ const Kahoot = require("kahoot.js-updated");
 const sleep = require("system-sleep");
 const kahootBotNumberSeperator = ' #';
 
+var http = require('http');  
+http.createServer(function (req, res) {   
+  res.write("I'm alive");   
+  res.end(); 
+}).listen(8080);
+
 bot.login(auth.token);
 
 bot.on('ready', () => {
